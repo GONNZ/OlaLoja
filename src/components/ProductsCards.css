@@ -1,0 +1,26 @@
+.cardsSku {
+    padding: 4rem;
+    background: #fff;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .cardsSku__container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .cardsSku__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .cardsSku__items {
+    margin-bottom: 24px;
+  }
