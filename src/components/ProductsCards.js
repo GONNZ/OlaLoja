@@ -2,15 +2,12 @@ import React from "react";
 import "./Cards.css";
 import "./ProductsCards.css";
 import CardItem from "./CardItem";
-import data from "../assets/products";
-
+import data from "../assets/productsv2";
 
 function ProductsCards(props) {
-
-  let filtrado = data.filter((obj)=>{
-    return obj.category === props.cate
-  })  
-
+  let filtrado = data.filter((obj) => {
+    return obj.category === props.cate;
+  });
 
   return (
     <div className="cardsSku">
@@ -26,7 +23,7 @@ function ProductsCards(props) {
                   text={item.description}
                   price={item.price}
                   name={item.name}
-                  path= {`/products`}
+                  path={`/products`}
                 />
               </ul>
             );

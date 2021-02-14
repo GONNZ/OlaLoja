@@ -12,15 +12,22 @@ function Cards() {
             <CardItem
               src='images/aretes.jpg'
               category="earrings"
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              text='Always wear earrings at the very least'
               label='Earrings'
               path='/products'
             />
             <CardItem
               src='images/tobillera.jpg'
               category="anklets"
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text="Life isn't perfect but your anklets can be"
               label='Anklets'
+              path='/products'
+            />
+             <CardItem
+              src='images/Collar.jpg'
+              category="necklaces"
+              text='Necklaces make everything better'
+              label='Necklaces'
               path='/products'
             />
           </ul>
@@ -28,24 +35,25 @@ function Cards() {
             <CardItem
               src='images/Brazalete.jpg'
               category="bracelets"
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='Good bracelets work for every season'
               label='Bracelets'
               path='/products'
             />
             <CardItem
               src='images/Anillo.jpg'
               category="rings"
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='Rings always fits'
               label='Rings'
               path='/products'
             />
-            <CardItem
-              src='images/Collar.jpg'
-              category="necklaces"
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Necklaces'
+             <CardItem
+              src='images/Others.jpg'
+              category="others"
+              text='Shine is my favorite accessory'
+              label='Others'
               path='/products'
             />
+           
           </ul>
         </div>
       </div>
