@@ -45,7 +45,7 @@ video {
 }
 
 @media screen and (max-width: 600px) {
- p {
+ .hero-container p {
    display: none ;
  }
 }

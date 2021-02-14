@@ -2,14 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .home,
 .services,
 .products,
-.sign-up,
-.services2 {
+.sign-up {
   display: flex;
   height: 90vh;
 
@@ -17,10 +16,45 @@
   font-size: 3rem;
 }
 
+.orders {
+  
+  height: 92vh;
+  background-color: #c0cac7;
 
 
-.services2{
-  background-image: url('/images/Orders2.jpg');
+}
+
+.orders h1 {
+  color: white;
+  display: block;
+  font-size: 6rem;
+}
+
+.orders .container{
+  display: flex;
+  text-align: start;
+  margin-top: 120px;
+  margin-left: 20px;
+}
+
+.info {
+  width: 30%;
+  
+}
+
+.info p {
+  margin: 20px 20px;
+  font-size: 25px;
+}
+
+.info img {
+  width: 100%;
+  margin-top: -100px;
+}
+
+
+.services2 {
+  background-image: url("/images/Orders2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +63,7 @@
 }
 
 .services {
-  background-image: url('/images/OrdersFinal.jpg');
+  background-image: url("/images/OrdersFinal.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,10 +81,39 @@
 }
 
 .sign-up {
-  background-image: url('/images/img-8.jpg');
+  background-image: url("/images/img-8.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+
+@media screen and (max-width: 960px) {
+  .info  {
+    width: 100%;
+  }
+
+  .info p  {
+    font-size: 14px;
+    margin: auto;
+  }
+
+  .orders .container{
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .orders h1 {
+    
+    font-size: 2rem;
+  }
+
+  .info img {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+
 }
