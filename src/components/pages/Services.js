@@ -10,16 +10,16 @@ export default function Services() {
         <div className="container">
           <div className="info">
             <p>
-              1- Selecciona las piezas que deseas comprar y consulta su
-              disponibilidad
+              1- Tomale captura de pantalla a las piezas que deseas comprar
             </p>
-            <p>2- Escoge el método de envío</p>
-            <p>3- Realiza el pago en una de nuestras cuentas</p>
+            <p>2- Envianos la captura de pantalla a nuestro DM en instagram @olaloja.cr 
+              o a nuestro WhastApp +506 60506235</p>
+            <p>3- Escoges el método de envío Y método de pago </p>
           </div>
 
           <div className="info">
-            <p>4- Envíanos foto del comprobante y tus datos personales</p>
-            <p>5- Tu pedido se envía inmediatamente</p>
+            <p>4- Nos envias la foto del comprobante de pago y tus datos personales</p>
+            <p>5- Tu pedido se envía en la fecha que se indica</p>
             <p>6- Listo, recibí y lucí tu pieza</p>
           </div>
 
